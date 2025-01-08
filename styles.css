@@ -1,6 +1,9 @@
+.holder{
+      width:100vw;
+	height: 100vh;
+}
 .container-0{
 	display:flex;
-	flex-wrap:wrap;   
 	justify-content: space-between;
     margin:10px;
 	padding:30px;
@@ -13,9 +16,9 @@ container-1{
 	background-color: blue;
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
-item-3{
+/*item-3{
 	background-color: green;
 }
 item-1{
@@ -23,5 +26,5 @@ item-1{
 }
 item-2{
 	background-color: blue;
-}
+}*/
 /* Your CSS Code here. */
