@@ -1,15 +1,24 @@
-.container{
+.container-0{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-between;
 }
-item{
+container-1{
 	 width:40vw;
 	height:40vh;
 	margin-bottom: 10px;
 	background-color: blue;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
-item>child{
-	background-color: lightcoral;
+item-3{
+	background-color: green;
+}
+item-1{
+	background-color: red;
+}
+item-2{
+	background-color: blue;
 }
 /* Your CSS Code here. */
